@@ -10,12 +10,20 @@ Again, the design team came up short and there is no mobile comp, so please use 
 
 Think COMPONENT ARCHITECTURE! Think about breaking the UI up into it's smallest parts and building up from there. 
 
+### Fork and build
+
+You know the drill, fork the repo and let it take on a life of it's own, you are on control of your own destiny! 
+
 ### Be agile
 
 It is HIGHLY suggested that you come up with a plan of attack. It's a four person team (2 pairs, no solo work!), so planning will help reduce the amount of over-lap work. Assign some responsibilities of things to be completed that can be addressed while others are addressing other needs of the project. 
 
 QA IS ESSENTIAL! Make sure that all your work is being reviewed as your progress. Catch bugs early and solve problems before they get too big. 
 
+
+### The comp
+
+See the the `comps/` directory. Choose the one that you want to execute on and DO IT!
 
 ### The project spec:
 
@@ -28,6 +36,7 @@ There are three individual deliverables:
 ### The grading spec:
 
 1. A clean Git project; .gitignore, clean commitment history and quality comments
+1. Semantically correct HTML
 1. No CSS, all Sass all day long
 1. Completed/working version of the comp
 1. Links to style guide view and component library
@@ -38,4 +47,6 @@ There are three individual deliverables:
 
 ## Project week demo
 
-Projects are due to be completed by Friday morning. Demos of the project you completed, things you learned and approaches you took to solve the problem will be expected to be presented. 
+Projects are due to be completed by Friday NOON! Take lunch and we will have demo reviews at 3pm. Please no commits after NOON or we will have to be angry O_O
+
+Demos your completed project; things you learned and approaches you took to solve the problem will be expected to be presented. 
