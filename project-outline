@@ -1,0 +1,101 @@
+Outline:
+
+HOME SECTION:
+  > Header Part
+    APPBOX logo in upper left corner
+    nav bar in upper right corner
+  > Titles section
+    Title "Best way to present your beautiful mobile app"
+    Subheading "Appbox is full of ..."
+    Subheading 2 "App Landing And..."
+    > Watch the video section
+      Play video button
+      Watch the video caption
+  > Image
+    Picture of phones
+> SVG divider
+  > Download area
+    > Title "Get it for free"
+      Subheading "choose your native"
+    > Two buttons
+      Google play button
+      iOS button
+> SVG divider
+  > Header 
+    Title "Some amazing feature"
+    underline bar
+  > product points charts (x4 each with hover and selection visual effects)
+    icon Container image
+      icon
+    title caption
+    title body
+> section end
+
+Section Two (Live conference support...):
+  > Header
+    NEW button (not clickable but looks like button)
+    Title "Live conference support"
+    Paragraph text
+      > Download section
+        Title "Free download..."
+        image (arrow)
+        > Android box
+          Android icon
+          Android subheading
+        > iOS box
+          iOS icon
+          iOS subheading
+      > Image section
+        image
+>SVG divider
+  > Heading
+    Title "Why choos app..."
+    Underline
+  > Phone features
+    > Section one
+      > Why Choose Point (1 typeA)
+        > Text box
+          Title "App Store"
+          paragraph
+        > icon Container image
+          icon
+      > separation image
+      > Why Choose Point (2 typeB)
+      > separation image
+      > Why Choose Point (3 typeC)
+    > Image
+      image
+    > Section two
+      > Why Choose Point (4 typeB)
+        > icon Container image
+            icon
+        > Text
+          Title "App Store"
+          paragraph
+      > separation image
+      > Why Choose Point (5 typeB)
+      > separation image
+      > Why Choose Point (6 typeB)
+> SVG divider
+  >Header
+    > icon Container image (modified)
+      icon
+    > Titles
+      Title "App reviews"
+      Subtitle "Read What"
+      Paragraph
+      > Director ID
+        Image
+        > Text
+          Name "Oscar..."
+          Title "Director: BoxApp..."
+
+Section Three (AppBox screenshots):
+
+Section Four (More Apps by AppBox):
+
+Section Five (Discounted Pricing):
+
+Section Six (AppBox Featured In):
+
+Section Seven (Footer: APPBOX Logo):
