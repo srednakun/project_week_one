@@ -4,15 +4,16 @@ Section One [HOME]
   > Header Part
     APPBOX logo in upper left corner
     nav bar in upper right corner
-  > Titles section
-    Title "Best way to present your beautiful mobile app"
-    Subheading "Appbox is full of ..."
-    Subheading 2 "App Landing And..."
-    > Watch the video section
-      Play video button
-      Watch the video caption
-  > Image
-    Picture of phones
+  > Content box
+    > Titles section
+      Title "Best way to present your beautiful mobile app"
+      Subheading "Appbox is full of ..."
+      Subheading 2 "App Landing And..."
+      > Watch the video section
+        Play video button
+        Watch the video caption
+    > Image
+      Picture of phones
 > SVG divider
   > Download area
     > Title "Get it for free"
@@ -104,7 +105,7 @@ Section Three (AppBox screenshots): [SCREENSHOTS]
     Image three
   Navigation buttons
     First nav button
-    Second nav button
+    Second nav buttons 
 
 Section Four (More Apps by AppBox): [DOWNLOADS]
   > Header
