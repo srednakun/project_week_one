@@ -23,7 +23,7 @@
 $icons:
   (search '\e603')
   (play '\f04b')
-  // (Google play '')
+  (Googleplay '\f04b')
   (iOS '\f179')
   (android '\e608')
   (desktop '\f108')
@@ -52,6 +52,7 @@ $icons:
       @extend %ico-font-base;
     &:before {
       content: nth($icon, 2);
+      //text-decoration: none;
     }
   }
 }
