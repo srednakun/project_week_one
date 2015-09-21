@@ -1,6 +1,6 @@
 Outline:
 
-HOME SECTION:
+Section One [HOME]
   > Header Part
     APPBOX logo in upper left corner
     nav bar in upper right corner
@@ -32,7 +32,7 @@ HOME SECTION:
     title body **** paragraph
 > section end
 
-Section Two (Live conference support...):
+Section Two (Live conference support...) [REVIEWS]:
   > Header
     NEW button ** (not clickable but looks like button)
     Title "Live conference support"
@@ -92,7 +92,7 @@ Section Two (Live conference support...):
           Name "Oscar..."
           Title "Director: BoxApp..."
 
-Section Three (AppBox screenshots):
+Section Three (AppBox screenshots): [SCREENSHOTS]
   > Header (identical to section 2)
     > * Underscored title
       Title "Appbox Screenshots ... "
@@ -106,7 +106,7 @@ Section Three (AppBox screenshots):
     First nav button
     Second nav button
 
-Section Four (More Apps by AppBox):
+Section Four (More Apps by AppBox): [DOWNLOADS]
   > Header
     > * Underscored title
       Title "More Apps by ... "
@@ -140,7 +140,7 @@ Section Four (More Apps by AppBox):
           Submit button **
           Underscore
 
-Section Five (Discounted Pricing):
+Section Five (Discounted Pricing): [PRICING]
   > Header
     > * Underscored title
       Title "Discounted Pricing ... "
@@ -176,7 +176,7 @@ Section Five (Discounted Pricing):
           Title "AppBox CEO"
         ...
 
-Section Six (AppBox Featured In):
+Section Six (AppBox Featured In): [REVIEWS]
   > * Underscored title
     Title "AppBox Featured In ... "
     Underscore
@@ -206,9 +206,7 @@ Section Six (AppBox Featured In):
         Button "send" **
 > SVG divider
 > SVG arrow link back to top
-
-Section Seven (Footer: APPBOX Logo):
-> Header section
+> Footer section
   APPBOX logo (version 2)
   Copyright text paragraph ****
 > Social Media Icon container (x6)
