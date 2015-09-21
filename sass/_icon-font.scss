@@ -22,36 +22,37 @@
 
 $icons:
   (search '\e603')
-  (play '\f04b')
-  (Googleplay '\f04b')
-  (iOS '\f179')
-  (android '\e608')
-  (desktop '\f108')
-  (beaker '\e607')
-  (airplane '\e604')
-  (cog '\e606')
-  (android '')
-  (cubes '\f1b3')
-  (laptop '\f109')
-  (flag '\e613')
-  (comment '\f075')
-  (coffee '\f0f4')
-  (rightquote '\e612')
-  (pin '\e60c')
-  (phone '\e60e')
-  (email '\e60d')
-  (facebook '\e609')
-  (twitter '\e60a')
-  (google+ '\e60b')
-  (pinterest '\e611')
-  (behance '\e60f')
-  (dribbble '\e610')
+  // (play '\f04b')
+  // (Googleplay '\f04b')
+  // (iOS '\f179')
+  // (android '\e608')
+  // (desktop '\f108')
+  // (beaker '\e607')
+  // (airplane '\e604')
+  // (cog '\e606')
+  // (android '\e608')
+  // (cubes '\f1b3')
+  // (laptop '\f109')
+  // (flag '\e613')
+  // (comment '\f075')
+  // (coffee '\f0f4')
+  // (rightquote '\e612')
+  // (pin '\e60c')
+  // (phone '\e60e')
+  // (email '\e60d')
+  // (facebook '\e609')
+  // (twitter '\e60a')
+  // (google+ '\e60b')
+  // (pinterest '\e611')
+  // (behance '\e60f')
+  // (dribbble '\e610')
   ;
+
 @each $icon in $icons {
   .icon-#{nth($icon, 1)} {
-      @extend %ico-font-base;
+      // @extend %ico-font-base;
     &:before {
-      content: nth($icon, 2);
+      content: nth($icon, 1);
       //text-decoration: none;
     }
   }
