@@ -1,94 +1,94 @@
 Outline:
 
-HOME SECTION:
+HOME SECTION: Background Color - #162327
   > Header Part
-    APPBOX logo in upper left corner
-    nav bar in upper right corner
+    APPBOX logo in upper left corner - PGN in img/ folder
+    nav bar in upper right corner - Roboto Regular 14px
   > Titles section
-    Title "Best way to present your beautiful mobile app"
-    Subheading "Appbox is full of ..."
-    Subheading 2 "App Landing And..."
-    > Watch the video section
-      Play video button
-      Watch the video caption
+    Title "Best way to present your beautiful mobile app" -Raleway SemiBold 40px
+    Subheading "Appbox is full of ..." - Roboto Medium 14px
+    Subheading 2 "App Landing And..." - Roboto Medium 18px
+    > Watch the video section - screen color #555555
+      Play video button - Button color #05c3f9
+      Watch the video caption - Roboto Light 14px
   > Image
     Picture of phones
 > SVG divider
-  > Download area
-    > Title "Get it for free"
-      Subheading "choose your native"
+  > Download area - Background color #252525
+    > Title "Get it for free" - Raleway SemiBold 30px
+      Subheading "choose your native" - Roboto Light 16px
     > Two buttons
-      Google play button
-      iOS button
+      Google play button - Roboto Condensed 22px
+      iOS button - Roboto Condensed 22px button color #05c3f9
 > SVG divider
-  > Header 
-    Title "Some amazing feature"
+  > Header
+    Title "Some amazing feature" - Raleway Light 32px
     underline bar
   > product points charts (x4 each with hover and selection visual effects)
     icon Container image
       icon
-    title caption
-    title body
+    title caption - Raleway Semibold 15px
+    title body - Roboto Light 12px
 > section end
 
 Section Two (Live conference support...):
   > Header
-    NEW button (not clickable but looks like button)
-    Title "Live conference support"
-    Paragraph text
+    NEW button (not clickable but looks like button) - Roboto Medium 12px
+    Title "Live conference support" - Raleway SemiBold 28px
+    Paragraph text - Roboto Light 14px
       > Download section
-        Title "Free download..."
+        Title "Free download..." - Roboto Condensed 22px
         image (arrow)
         > Android box
           Android icon
-          Android subheading
+          Android subheading - Roboto BoldCondensed 12px
         > iOS box
           iOS icon
-          iOS subheading
+          iOS subheading - Roboto BoldCondensed 12px
       > Image section
         image
 >SVG divider
   > Heading
-    Title "Why choos app..."
+    Title "Why choos app..." - Raleway Light 32px
     Underline
   > Phone features
     > Section one
       > Why Choose Point (1 typeA)
         > Text box
-          Title "App Store"
-          paragraph
+          Title "App Store" - Raleway SemiBold 15px
+          paragraph - Roboto Light 12px
         > icon Container image
           icon
       > separation image
-      > Why Choose Point (2 typeB)
+      > Why Choose Point (2 typeB) - Raleway SemiBold 15px/- Roboto Light 12px
       > separation image
-      > Why Choose Point (3 typeC)
+      > Why Choose Point (3 typeC) - Raleway SemiBold 15px/- Roboto Light 12px
     > Image
       image
     > Section two
-      > Why Choose Point (4 typeB)
+      > Why Choose Point (4 typeB) - Raleway SemiBold 15px/- Roboto Light 12px
         > icon Container image
             icon
         > Text
           Title "App Store"
           paragraph
       > separation image
-      > Why Choose Point (5 typeB)
+      > Why Choose Point (5 typeB) - Raleway SemiBold 15px/- Roboto Light 12px
       > separation image
-      > Why Choose Point (6 typeB)
+      > Why Choose Point (6 typeB) - Raleway SemiBold 15px/- Roboto Light 12px
 > SVG divider
   >Header
     > icon Container image (modified)
       icon
     > Titles
-      Title "App reviews"
-      Subtitle "Read What"
-      Paragraph
+      Title "App reviews" - Raleway Regular 32px
+      Subtitle "Read What" - Roboto Light 16px
+      Paragraph - Roboto Italic 17px
       > Director ID
         Image
         > Text
-          Name "Oscar..."
-          Title "Director: BoxApp..."
+          Name "Oscar..." - Roboto COndensed 20px
+          Title "Director: BoxApp..." - Roboto Regular 12px
 
 Section Three (AppBox screenshots):
 
