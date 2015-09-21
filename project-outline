@@ -17,25 +17,26 @@ HOME SECTION:
   > Download area
     > Title "Get it for free"
       Subheading "choose your native"
-    > Two buttons
-      Google play button
-      iOS button
+    > Download App buttons *6
+      Google play button **
+      iOS button **
 > SVG divider
   > Header 
-    Title "Some amazing feature"
-    underline bar
+    > * Underscored title
+      Title "Some Amazing ... "
+      Underscore
   > product points charts (x4 each with hover and selection visual effects)
-    icon Container image
+    icon Container image ***
       icon
     title caption
-    title body
+    title body **** paragraph
 > section end
 
 Section Two (Live conference support...):
   > Header
-    NEW button (not clickable but looks like button)
+    NEW button ** (not clickable but looks like button)
     Title "Live conference support"
-    Paragraph text
+    Paragraph text **** paragraph
       > Download section
         Title "Free download..."
         image (arrow)
@@ -49,15 +50,16 @@ Section Two (Live conference support...):
         image
 >SVG divider
   > Heading
-    Title "Why choos app..."
-    Underline
+    > * Underscored title
+      Title "Why Choose ... "
+      Underscore
   > Phone features
     > Section one
-      > Why Choose Point (1 typeA)
+      > Why Choose Point (1 typeA) *8 (reversed)
         > Text box
           Title "App Store"
-          paragraph
-        > icon Container image
+          text **** paragraph
+        > icon Container image ***
           icon
       > separation image
       > Why Choose Point (2 typeB)
@@ -66,36 +68,151 @@ Section Two (Live conference support...):
     > Image
       image
     > Section two
-      > Why Choose Point (4 typeB)
-        > icon Container image
+      > Why Choose Point (4 typeB) *8
+        > icon Container image ***
             icon
         > Text
           Title "App Store"
-          paragraph
+          text **** paragraph
       > separation image
       > Why Choose Point (5 typeB)
       > separation image
       > Why Choose Point (6 typeB)
 > SVG divider
-  >Header
-    > icon Container image (modified)
+  > Header
+    > icon Container image (modified) ***
       icon
     > Titles
       Title "App reviews"
       Subtitle "Read What"
-      Paragraph
-      > Director ID
-        Image
+      text paragraph ****
+      > Team Member 
+        portrait image *7
         > Text
           Name "Oscar..."
           Title "Director: BoxApp..."
 
 Section Three (AppBox screenshots):
+  > Header (identical to section 2)
+    > * Underscored title
+      Title "Appbox Screenshots ... "
+      Underscore
+> SVG divider (type 2)
+  Screenshot container
+    Image one
+    Image two
+    Image three
+  Navigation buttons
+    First nav button
+    Second nav button
 
 Section Four (More Apps by AppBox):
+  > Header
+    > * Underscored title
+      Title "More Apps by ... "
+      Underscore
+    > More Apps (x 4)
+      >App box
+        > descriptive section
+          Image
+          Hover for text **** paragraph
+        > Information section
+          Title
+          > rating
+            rating image
+          Price
+> SVG divider
+> SVG divider (type 2)
+  > Image container
+  Image
+  > Download app section
+    > * Underscored title
+      Title "<strong>Download</strong> our App ... "
+      Underscore
+    subheading text "Choose your native" paragraph 2 *5
+    > Download App buttons *6
+      Google play button **
+      iOS button **
+    > Subscribe container
+      Subheading text "subscribe to ..."
+        > Email entry form
+          Input field
+          Submit button **
+          Underscore
 
 Section Five (Discounted Pricing):
+  > Header
+    > * Underscored title
+      Title "Discounted Pricing ... "
+      Underscore
+      text paragraph ****
+    > Pricing packages container (x 3)
+      > Standard Package
+        > Section 1
+          Title "Standard Package"
+          > icon Container image ***
+            > Price
+              Amount "$11"
+              interval "per month"
+        > Section 2
+          > List container
+            five lines "unlimited support, easy ..."
+          Button "buy now" **
+    > Professional packages
+      ...
+    > Corporate Package
+      ...
+> SVG divider
+  > Header
+    Title "Team Members"
+    Subtitle "Our apps are made by..."
+    > Image container
+      Image
+  > Team (x 6)
+    > Team members
+        portrait image *7
+        > Text
+          Name "Oscar..."
+          Title "AppBox CEO"
+        ...
 
 Section Six (AppBox Featured In):
+  > * Underscored title
+    Title "AppBox Featured In ... "
+    Underscore
+  > References placeholder
+    Image
+> SVG divider 
+  > * Underscored title
+    Title "App Support"
+    Underscore
+  > Support container
+    Company contact info >
+      > Section (x 3) *8
+        > Icon
+          > icon Container image ***
+            icon
+        > Information
+          Title "Address"
+          text paragraph *5
+      ...
+    > Contact form 
+      text paragraph ****
+      > Form heading container
+      > Form input container
+          Name input
+          Email input
+        Form Message
+        Button "send" **
+> SVG divider
+> SVG arrow link back to top
 
 Section Seven (Footer: APPBOX Logo):
+> Header section
+  APPBOX logo (version 2)
+  Copyright text paragraph ****
+> Social Media Icon container (x6)
+  Social media Icon
+  ...
+
+Find all *5 
