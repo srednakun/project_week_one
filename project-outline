@@ -1,5 +1,14 @@
 Outline:
 
+Fonts for Sass
+
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Roboto Condensed', sans-serif;
+
+font-family: 'Raleway', sans-serif;
+
+
 HOME SECTION: Background Color - #162327
   > Header Part
     APPBOX logo in upper left corner - PGN in img/ folder
