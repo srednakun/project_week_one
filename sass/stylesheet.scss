@@ -1,4 +1,6 @@
+//night blue
 $background-A: #162327;
+//bright blue
 $background-B: #05c3f9;
 $background-C: #252525;
 $high-light: #bebebe;
@@ -6,6 +8,10 @@ $med-light: #888888;
 $low-light: #383838;
 $contrast-A: #037fa2;
 
+
+
+@import "font.scss";
+@import "color.scss";
 @import "globals.scss";
 @import "variables.scss";
 @import "mixins.scss";
@@ -25,8 +31,7 @@ $contrast-A: #037fa2;
 @import "f2-reviews-contact.scss";
 @import "f3-reviews-footer.scss";
 
-@import "font.scss";
-@import "color.scss";
+
 @import "button.scss";
 @import "icon-container.scss";
 @import "icon-font.scss";
