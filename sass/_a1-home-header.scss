@@ -1,10 +1,11 @@
 //home header styling
 //this includes the appbox logo in the left corner and the navigation bar in the right corner at the very top of the page.
 .home {
-	background-color: $background-A;
+  color: $primary-font-color;
 }
 .home-header {
   padding-top: 2em;
+  background-color: $background-A;
 }
 
 .home-search {
