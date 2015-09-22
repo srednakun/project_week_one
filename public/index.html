@@ -279,19 +279,19 @@
     </div>
         <p>Nullam id odio quis risus placerat aliquam. Cum sociis natoque penatibus et magnis dis part <br> urient montes nascetur ridiculus mus curabitur tellus lacus.</p>
           <table>
-            <tr><td>Standard Package</td></tr>
+            <tr><td class="package-level">Standard Package</td></tr>
             <tr><td><div class="price-tag"><strong>$11</strong><br>per month</div></td></tr>
             <tr><td>Unlimited support<br>Easy &#38; Fast Customization<br>Unlimited Color possible<br>Free PSD Template<br>Lifetime Updates</td></tr>
             <tr><td><a href="" class="buy-button">Buy Now</a></td></tr>
           </table>
           <table>
-            <tr><td>Professional Package</td></tr>
+            <tr><td class="package-level">Professional Package</td></tr>
             <tr><td><div class="price-tag"><strong>$25</strong><br>per month</div></td></tr>
             <tr><td>Unlimited support<br>Easy &#38; Fast Customization<br>Unlimited Color possible<br>Free PSD Template<br>Lifetime Updates</td></tr>
             <tr><td><a href="" class="buy-button">Buy Now</a></td></tr>
           </table>
           <table>
-            <tr><td>Corporate Package</td></tr>
+            <tr><td class="package-level">Corporate Package</td></tr>
             <tr><td><div class="price-tag"><strong>$39</strong><br>per month</div></td></tr>
             <tr><td>Unlimited support<br>Easy &#38; Fast Customization<br>Unlimited Color possible<br>Free PSD Template<br>Lifetime Updates</td></tr>
             <tr><td><a href="" class="buy-button">Buy Now</a></td></tr>
@@ -371,15 +371,17 @@
               <p>info@appbox.com<br>feedback@appbox.com</p>
           </li>
         </ul>
-        <div class="contact-form">
+        <div>
           <div>
             <p>Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce.Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce.</p>
           </div>
-            <form>
-              <input type="text" name="fullname" value="Full Name">
-                <input type="email" name="email" value="Email">
-                  <textarea rows="4" cols="50"></textarea>
-                    <input type="submit" value="Send">
+            <form class="contact-form">
+              <div class="contact-form-first-line">
+                <input type="text" name="fullname" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email">
+              </div>
+              <textarea rows="4" cols="50" placeholder="Message"></textarea>
+              <input type="submit" value="Send">
             </form>
         </div>
   </section>
@@ -395,6 +397,8 @@
       <li class="icon-pinterest icon-social-media"></li>
       <li class="icon-behance icon-social-media"></li>
       <li class="icon-dribbble icon-social-media"></li>
+      <li class="icon-star icon-social-media"></li>
+      <li class="icon-star-outline icon-social-media"></li>
     </ul>
   </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
