@@ -1,0 +1,67 @@
+.d1-download-more-apps{
+  background: $background-B;
+}
+.underlined-heading-download{
+  margin: 0 auto 4em auto;
+  padding: 0;
+  &-text {
+    margin-top: 0;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 2em;
+    color: $highest-light;
+    margin-bottom: .75em;
+  }
+  &-underline {
+    width: 5%;
+    height: .4em;
+    border: 0;
+    margin: auto;
+    background-color: $highest-light;
+  }
+}
+
+.app-img-display {
+  width: 240px;
+  height: 300px;
+  background: $high-light;
+  p {
+    display: none;
+  }
+  &:hover{
+    background: $low-light;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    p {
+      display: inline;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+}
+
+.app-info {
+  margin-top: 0;
+  width: 240px;
+  height: 120px;
+  background: $highest-light;
+  display: block;
+  h1 {
+    font-size: .5em;
+  }
+  ul {
+    text-align: left;
+    font-size: .5em;
+    margin-top: 0;
+    li {
+      padding-top: 1em;
+      padding-left: .3em;
+    }
+  }
+}
+.icon-rating {
+  color: $bright-light;
+}
