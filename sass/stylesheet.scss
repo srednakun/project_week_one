@@ -6,6 +6,9 @@ $med-light: #888888;
 $low-light: #383838;
 $contrast-B: #037fa2;
 
+@import "globals.scss";
+@import "variables.scss";
+@import "mixins.scss";
 @import "a1-home-header.scss";
 @import "a2-home-download.scss";
 @import "a3-home-features.scss";
@@ -54,7 +57,7 @@ svg {
   padding: 0;
   &-text {
     font-family: "Raleway";
-    font-weight: 400; 
+    font-weight: 400;
     font-size: 2em;
     color: $high-light;
     margin-bottom: .75em;
