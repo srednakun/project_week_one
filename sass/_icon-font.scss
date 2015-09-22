@@ -22,18 +22,6 @@
   width: 100%;
   text-align: center;
 }
-.icon-social-media {
-  display: inline;
-  padding-left: 1%;
-  padding-right: 1%;
-  -webkit-transition: -webkit-transform .25s ease-in-out;
-  transition: transform .25s ease-in-out;
-  &:hover {
-    -webkit-transform: scale(1.25,1.25);
-    transform: scale(1.25,1.25);
-    transition: .25s ease-in-out;  
-  }
-} 
 
 $icons: 
   (seek '\e603')
