@@ -1,5 +1,6 @@
 .f2-reviews-contact {
   @extend %section-layouts;
+
   font-family: "Raleway", sans-serif;
   background-color: $background-C;
   color: $high-light;
@@ -17,9 +18,23 @@
 }
 
 .contact-form {
-  input, textarea {
+  display: flex;
+  flex-direction: column;
+  input {
     border: none;
+    border-bottom: 2px solid $low-light; 
     background: none;
-    color: $high-light;
+    color: $low-light;
+    width: 75%;
+    margin: auto;
+    display: block;
+    height: 3em;
+  textarea {
+    height: 9em;
+    }
   }
+}
+
+.contact-form-first-line {
+  @extend .contact-form;
 }
