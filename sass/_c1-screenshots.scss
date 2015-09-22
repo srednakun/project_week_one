@@ -5,18 +5,34 @@
   font-weight: 300;
   color: #fff;
 }
-.c1-image-shown {
-  display: inline-block;
+* {
+  padding: 0;
+  margin: 0;
 }
-.c1-image-hidden {
-  display: none;
+
+.carousel-2-outer{
+  margin: 150px auto;
+  padding: 10px;
+  width: 450px;
+  height: 450px;
+  background-color: #fff;
+  box-shadow: 0 0 2px #000;
 }
 .carousel-2-inner {
-  width: 100px;
-  height: 320px;
-  position: relative;
-  & img {
-    width: 100%;
-    width: 100%;
-  }
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
 }
+
+ .carousel-2-inner{
+  width: 1350px;
+  height: 450px;
+  list-style: none;
+}
+.carousel-2-inner img{
+  float: left;
+  width: 450px;
+  height: 450px;
+}
+
+
