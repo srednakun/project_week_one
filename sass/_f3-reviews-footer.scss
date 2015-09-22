@@ -1,4 +1,19 @@
 .f3-reviews-footer {
   @extend %section-layouts;
-  background-color: $background-A;
+  background-color: $background-B;
+  color: $highest-light;
+}
+
+.footer-logo {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  img {
+    width: 25%;
+    height: auto;
+  }
+}
+
+.copyright {
+  margin-top: 2em;
+  margin-bottom: 4em;
 }
