@@ -10,9 +10,7 @@ $(document).ready(function () {
 
     activeImage.removeClass("c1-image-shown").addClass("c1-image-hidden").css("z-index",-10);;
     nextImage.addClass("c1-image-shown").removeClass("c1-image-hidden").css("z-index",20);
-    $(".carousel-2-inner img").not([activeImage, nextImage]).css("z-index",1);
-    e.preventDefault();
-    console.log("poop")
+    $(".slider-inner img").not([activeImage, nextImage]).css("z-index",1);
   });
 
   $(".c1-left").on("click", function(e){
@@ -24,9 +22,7 @@ $(document).ready(function () {
     }
     activeImage.removeClass("c1-image-shown").addClass("c1-image-hidden").css("z-index", -10);
     nextImage.addClass("c1-image-shown").removeClass("c1-image-hidden").css("z-index", 20);
-    $('.carousel-2-inner img').not([activeImage, nextImage]).css("z-index", 1);
-    e.preventDefault();
-    console.log("yay")
+    $('.slider-inner img').not([activeImage, nextImage]).css("z-index", 1);
   })
 
 });
