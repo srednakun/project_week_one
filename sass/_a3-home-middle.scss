@@ -2,6 +2,7 @@
 //this is the "get it for free" title, paragraph, and google play and ios app store buttons.
 .home-middle {
 	background-color:  $background-C;
+	padding-bottom: 2em;
 }
 .home-arrow {
 	margin-top: 1em;
@@ -16,7 +17,8 @@
 	display: inline-block;
 }
 .google-ios-button {
-	@extend %circle;
+	@extend %google-iOS-button;
+	font-size: $medium-font-size;
 }
 .google-play-button {
 
