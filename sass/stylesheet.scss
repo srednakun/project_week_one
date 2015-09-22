@@ -1,6 +1,7 @@
 $background-A: #162327;
 $background-B: #05c3f9;
 $background-C: #252525;
+$highest-light: #fff;
 $high-light: #bebebe;
 $med-light: #888888;
 $low-light: #383838;
@@ -42,6 +43,10 @@ body {
   font-family: "Roboto", Helvetica, sans-serif;
   text-align: center;
   box-sizing: border-box;
+  p {
+    font-family: "Raleway";
+    font-size: .5em;
+  }
 }
 
 svg {
