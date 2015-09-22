@@ -21,7 +21,6 @@
     background-color: $highest-light;
   }
 }
-
 .app-img-display {
   width: 240px;
   height: 300px;
@@ -43,7 +42,18 @@
     }
   }
 }
-
+.carousel-inner-download {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+}
+.app-box{
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
 .app-info {
   margin-top: 0;
   width: 240px;
@@ -59,10 +69,10 @@
     margin-top: 0;
     li {
       padding-top: 1em;
-      padding-left: .3em;
+      padding-left: 1em;
     }
   }
 }
-.icon-rating {
-  color: $highest-light;
+.icon-star{
+  color: $bright-rating;
 }
