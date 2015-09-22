@@ -1,6 +1,7 @@
 @import "a1-home-header.scss";
-@import "a2-home-download.scss";
-@import "a3-home-features.scss";
+@import "a2-home-top.scss";
+@import "a3-home-middle.scss";
+@import "a4-home-bottom.scss";
 @import "b1-support-download.scss";
 @import "b2-support-features.scss";
 @import "b3-support-reviews.scss";
@@ -13,6 +14,9 @@
 @import "f2-reviews-contact.scss";
 @import "f3-reviews-footer.scss";
 
+@import "font.scss";
+@import "color.scss";
 @import "button.scss";
 @import "icon-container.scss";
 @import "icon-font.scss";
+
