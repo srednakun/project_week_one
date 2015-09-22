@@ -1,8 +1,14 @@
 //home header styling
 //this includes the appbox logo in the left corner and the navigation bar in the right corner at the very top of the page.
 .home {
-	background-color: #20293F;
+  color: $primary-font-color;
+  margin: 0;
 }
+.home-header {
+  padding-top: 2em;
+  background-color: $background-A;
+}
+
 .home-search {
   position: relative;
   color: #aaa;
@@ -26,6 +32,8 @@
 .home-nav {
 	display: inline;
 	float: right;
+  font-size: 3em;
+  margin-bottom: 2em;
 }
 .home-nav ul {
 	display: inline;
@@ -33,12 +41,14 @@
 .home-nav li {
 	padding-right: .5em;
 	display: inline;
+
 }
 
 .home-nav a {
-	color: #FFFFFF;
+	color: $primary-font-color;
 	text-decoration: none;
 }
 .appbox-logo {
 	display: inline;
+  max-width: 100%;
 }
