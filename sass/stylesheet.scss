@@ -6,6 +6,9 @@
 @import "variables.scss";
 @import "mixins.scss";
 
+@import "normalize.scss";
+@import "config.scss";
+
 @import "a1-home-header.scss";
 @import "a2-home-top.scss";
 @import "a3-home-middle.scss";
