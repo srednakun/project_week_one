@@ -16,3 +16,13 @@
 @import "button.scss";
 @import "icon-container.scss";
 @import "icon-font.scss";
+
+$main-background: #162327;
+$secondary-background: #05c3f9;
+
+// default eliminate list bullets and the empty space on the left 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
