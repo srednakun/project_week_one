@@ -4,7 +4,7 @@ $background-C: #252525;
 $high-light: #bebebe;
 $med-light: #888888;
 $low-light: #383838;
-$contrast-A: #037fa2;
+$contrast-B: #037fa2;
 
 @import "a1-home-header.scss";
 @import "a2-home-download.scss";
@@ -24,7 +24,6 @@ $contrast-A: #037fa2;
 @import "button.scss";
 @import "icon-container.scss";
 @import "icon-font.scss";
-
 
 // default eliminate list bullets and the empty space on the left 
 ul {
