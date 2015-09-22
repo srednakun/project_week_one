@@ -1,38 +1,26 @@
 // help from https://www.youtube.com/watch?v=sDsyHJnkZn0
+
 .c1-screenshots {
   background-color: #383838;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   color: #fff;
 }
-* {
-  padding: 0;
-  margin: 0;
+.c1-image-shown {
+  display: inline-block;
 }
-
-.carousel-2-outer{
-  margin: 150px auto;
-  padding: 10px;
-  width: 450px;
-  height: 450px;
-  background-color: #fff;
-  box-shadow: 0 0 2px #000;
+.c1-image-hidden {
+  display: none;
 }
 .carousel-2-inner {
-  width: 450px;
-  height: 450px;
-  overflow: hidden;
+  width: 200px;
+  height: 640px;
+  position: relative;
+  & img {
+    width: 100%;
+    width: 100%;
+  }
 }
-
- .carousel-2-inner{
-  width: 1350px;
-  height: 450px;
-  list-style: none;
+.c1-right, .c1-left{
+  cursor: pointer;
 }
-.carousel-2-inner img{
-  float: left;
-  width: 450px;
-  height: 450px;
-}
-
-
