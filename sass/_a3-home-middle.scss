@@ -9,3 +9,25 @@
 .home-middle-p {
 	@extend %small-font;
 }
+.home-google-ios {
+	
+}
+.home-google-ios li{
+	display: inline-block;
+}
+.google-ios-button {
+	@extend %circle;
+}
+.google-play-button {
+
+}
+.ios-app-button {
+
+}
+.home-google-ios {
+	a {
+		color: $white;
+		text-decoration: none;
+		font-size: $medium-font-size;
+	}
+}
