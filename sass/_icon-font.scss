@@ -64,7 +64,7 @@ $icons:
   ;
   
 @each $icon in $icons {
-  .#{nth($icon, 1)}:before {
+  .icon-#{nth($icon, 1)}:before {
     content:nth($icon, 2);
   }
 }
