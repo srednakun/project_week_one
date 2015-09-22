@@ -1,10 +1,20 @@
 //this manages defaults for the UI
 
+// default eliminate list bullets and the empty space on the left 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 //default document font
 body {
   font-family: "Roboto", Helvetica, sans-serif;
   text-align: center;
   box-sizing: border-box;
+  p {
+    font-family: "Raleway";
+    font-size: .5em;
+  }
 }
 
 svg {
