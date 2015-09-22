@@ -1,5 +1,11 @@
 //home middle styling
 //this is the "get it for free" title, paragraph, and google play and ios app store buttons.
 .home-middle {
-	background-color:  #252525;
+	background-color:  $background-C;
+}
+.home-arrow {
+	margin-top: 1em;
+}
+.home-middle-p {
+	@extend %small-font;
 }
