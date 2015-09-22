@@ -1,4 +1,29 @@
 .f2-reviews-contact {
   @extend %section-layouts;
+<<<<<<< HEAD
   background-color: #FFFFFF;
+=======
+  font-family: "Raleway", sans-serif;
+  background-color: $background-C;
+  color: $high-light;
+}
+
+.container-icon {
+  margin: auto;
+}
+
+.contact-info {
+  margin-bottom: 6em;
+  li {
+    margin-bottom: 2em;
+  }
+}
+
+.contact-form {
+  input, textarea {
+    border: none;
+    background: none;
+    color: $high-light;
+  }
+>>>>>>> ef6b8fdca077997bd0b4cd79f55666620eddd623
 }
