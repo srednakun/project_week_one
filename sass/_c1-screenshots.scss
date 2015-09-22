@@ -1,5 +1,10 @@
 // help from https://www.youtube.com/watch?v=sDsyHJnkZn0
-
+.c1-screenshots {
+  background-color: #383838;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
 .c1-image-shown {
   display: inline-block;
 }
@@ -10,12 +15,8 @@
   width: 100px;
   height: 320px;
   position: relative;
-}
-.carousel-2-inner img{
-  width: 100%;
-  width: 100%;
-}
-.c1-left {
-}
-.c1-right {
+  & img {
+    width: 100%;
+    width: 100%;
+  }
 }
