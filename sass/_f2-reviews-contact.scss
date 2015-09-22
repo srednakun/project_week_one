@@ -20,7 +20,7 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  input {
+  .contact-form-first-line {
     border: none;
     border-bottom: 2px solid $low-light; 
     background: none;
@@ -29,9 +29,10 @@
     margin: auto;
     display: block;
     height: 3em;
+  }
   textarea {
     height: 9em;
-    }
+    width: 75%;
   }
 }
 
