@@ -29,7 +29,16 @@ font-family: 'Roboto', sans-serif;
 	padding-right: 2em;
 }
 
+.package-level{
+	z-index:25;
+	padding-bottom: 5em !important;
+}
+
 .price-tag{
+	background-color: $background-C;
+	z-index: 100;
+	opacity: 1;
+	margin-top: -4.5em !important;
 	padding-top: 0em;
 	padding-bottom: 0em;
 	strong{
@@ -47,12 +56,6 @@ font-family: 'Roboto', sans-serif;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
-.price-tag:hover{
-	strong{
-		color: $high-light;
-		background-color: $background-B;
-	}
-}
 
 .e1-pricing-pricing>table{
 	text-align: center;
@@ -60,12 +63,12 @@ font-family: 'Roboto', sans-serif;
 	border: 1px solid $high-light;
 	margin: 2%;
 	tr{
+		.package-level{
+			border-bottom: 1px solid $high-light;
+		}
+
 		td:nth-of-type(1){
 			padding-top: 2em;
-		}
-		td:nth-of-type(1):hover{
-			background-color: $background-B;
-			color: $high-light;
 		}
 		td{
 			padding-left: 5em;
@@ -77,5 +80,28 @@ font-family: 'Roboto', sans-serif;
 				color: $high-light;
 			}
 		}
+	}
+}
+
+.e1-pricing-pricing>table:hover{
+	tr{
+			.package-level{
+			background-color: $background-B;
+			color: $high-light;
+			}
+
+			.price-tag{
+			background-color: $background-B;
+			color: $high-light;
+				strong{
+				color: $high-light;
+				}
+			}
+
+			.buy-button{
+			background-color: $background-B;
+			color: $high-light;
+			border-color: $background-B;
+			}
 	}
 }
