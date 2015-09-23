@@ -4,7 +4,7 @@
 	@extend %circle;
 }
 
-%oval-button{
+%oval-button {
     border-top: 5px solid $high-light;
     border-bottom: 5px solid $high-light;
     border-right: 1px solid $high-light;
@@ -30,5 +30,7 @@
 
 %iOS-app-button {
 	@extend %google-play-button;
-	background-color: $background-B;
+    //add this functionality through jquery when in hover state,
+    //changes background color on google button and ios button to bright blue
+	//background-color: $background-B;
 }

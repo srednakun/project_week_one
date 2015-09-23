@@ -6,39 +6,25 @@
 }
 .home-h1 {
   margin-bottom: 1em;
+  padding-top: 0;
+  margin-top: 1em; 
 }
 .home-header {
   padding-top: 5em;
   background-color: $background-A;
 }
-.home-search {
-  position: relative;
-  color: #aaa;
-  font-size: 16px;
-}
-.home-search input {
-  width: 250px;
-  height: 32px;
-  background: #fcfcfc;
-  border: 1px solid #aaa;
-  border-radius: 5px;
-  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
-}
-.home-search input { text-indent: 32px;}
-.home-search .home-search-box { 
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
 .home-nav {
 	display: inline;
-	float: right;
   font-size: 3em;
   margin-bottom: 2em;
   margin-top: 2em;
 }
 .home-nav ul {
-	display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 0;
 }
 .home-nav li {
 	padding-right: .5em;
