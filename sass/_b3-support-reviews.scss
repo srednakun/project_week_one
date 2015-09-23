@@ -16,7 +16,7 @@
   font-size: 1em;
   margin-left: 25%;
   margin-right: 25%;
- }
+  }
 }
 
 .icon-title{
@@ -29,19 +29,30 @@
   background-color: transparent;
   height: 100px;
   width: 100px;
-  color: $med-light;
   border-top: 8px solid transparent;
   border-bottom: 5px solid $white;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-radius: 50%;
   display: flex;
-  p {
+  span {
     align-items: center;
     color: $white;
     font-size: 2em;
   }
 }
+.individual {
+  display: flex;
+  justify-content: center;
+  justify-direction: row;
+}
+.individual-info {
+  display: inline;
+  text-align: left;
+  margin-left: 0;
+  margin-left: 0;
+}
+
 .b3-support-reviews {
   @extend %section-layouts;
   background-color: $background-B;
