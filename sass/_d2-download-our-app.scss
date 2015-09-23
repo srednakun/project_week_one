@@ -14,16 +14,32 @@
 .subscribe-form {
   color: $highest-light;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   input {
     border: none;
-    border-bottom: 2px solid $low-light; 
+    border-bottom: 2px solid $background-C; 
     background: none;
-    color: $low-light;
-    width: 75%;
+    color: $highest-light;
+    width: 45%;
     margin: auto;
-    display: block;
+    display: flex;
     height: 3em;
+    margin-left: 15%;
+   	margin-right: 0%;
+   	min-width: 30%;
+  }
+  .submit-button{
+  	width: 10%;
+  	max-width: 10%;
+  	text-align: center;
+  	background-color: $background-B;
+  	border-radius: 50px;
+  	border: 1px solid rgb(3, 148, 190);
+  	font-weight: bold;
+  	font-family: 'Roboto', sans-serif;
+  	color: $highest-light;
+  	text-decoration: none;
+  	margin-right: 15%
   }
 }
 
@@ -35,9 +51,12 @@
 	margin-bottom: 5%;
 }
 
-.d2-content{
+.d2-content>p{
 text-align: center;
-	
+margin-top: -10%;
+padding-top: 0%;
+margin-bottom: 0%;
+padding-bottom: 0%;
 }
 
 .underlined-heading{
@@ -54,5 +73,5 @@ text-align: center;
 
 .d2-arrow{
 margin-right: 0%;
-margin-left: 25%;
+margin-left: 45%;
 }
