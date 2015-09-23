@@ -4,24 +4,36 @@
   padding-bottom: 5em;
   padding-top: 5em;
 }
-.review-container {
+.b3-support-reviews {
+ h1 {
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 3em;
+ }
 }
 
-.icon-rightquote {
-
+.icon-title{
+  display: flex;
+  -webkit-display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
 }
-.half-container-icon {
+.container-icon-review{
   background-color: transparent;
   height: 100px;
   width: 100px;
+  color: $med-light;
   border-top: 8px solid transparent;
-  border-bottom: 8px solid $white;
+  border-bottom: 5px solid $white;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-radius: 50%;
-  margin: auto;
-  // margin-bottom:
-  // position: absolute;
+  display: flex;
+  p {
+    align-items: center;
+    color: $white;
+    font-size: 2em;
+  }
 }
 .b3-support-reviews {
   @extend %section-layouts;
