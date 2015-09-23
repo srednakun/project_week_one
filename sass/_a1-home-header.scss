@@ -5,7 +5,7 @@
   margin: 0;
 }
 .home-header {
-  padding-top: 2em;
+  padding-top: 5em;
   background-color: $background-A;
 }
 .home-search {
@@ -32,6 +32,7 @@
 	float: right;
   font-size: 3em;
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 .home-nav ul {
 	display: inline;
@@ -47,4 +48,5 @@
 .appbox-logo {
 	display: inline;
   max-width: 100%;
+  margin-right: 50em;
 }

@@ -2,28 +2,29 @@
 //this is the "get it for free" title, paragraph, and google play and ios app store buttons.
 .home-middle {
 	background-color:  $background-C;
-	padding-bottom: 2em;
+	padding-bottom: 5em;
 }
 .home-arrow {
-	margin-top: 1em;
+	margin-left: 8em;
+	margin-bottom: 0;
 }
 .home-middle-p {
 	@extend %small-font;
-}
-.home-google-ios {
-	
+	margin: 0;
 }
 .home-google-ios li{
 	display: inline-block;
 }
-.google-ios-button {
-	@extend %google-iOS-button;
-	font-size: $medium-font-size;
-}
 .google-play-button {
+	@extend %google-play-button;
+	//margin auto is overiding these so it doesn't work
+	margin-left: .5em;
 
 }
-.ios-app-button {
+.iOS-app-button {
+	@extend %iOS-app-button;
+	//margin auto is overiding these so it doesn't work
+	margin-right: .5em;
 
 }
 .home-google-ios {
@@ -32,4 +33,15 @@
 		text-decoration: none;
 		font-size: $medium-font-size;
 	}
+}
+.icon-Googleplay {
+	position: relative;
+	right: 20em;
+	top: 6em;
+}
+.icon-iOS {
+	position: relative;
+	bottom: 5.5em;
+
+ 
 }

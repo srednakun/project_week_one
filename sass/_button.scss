@@ -14,7 +14,7 @@
     padding-right: 2em;
 }
 
-%google-iOS-button {
+%google-play-button {
 	@extend %oval-button;
 	border-top-width: .2em;
     padding-top: 1.5em;
@@ -22,4 +22,9 @@
     padding-bottom: 1.5em;
     padding-left: 3em;
     padding-right: 3em;
+}
+
+%iOS-app-button {
+	@extend %google-play-button;
+	background-color: $background-B;
 }
