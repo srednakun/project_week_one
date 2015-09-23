@@ -27,10 +27,10 @@
   border: none;
   border-bottom: 2px solid $low-light; 
   background: none;
-  color: $low-light;
-  font-size: 2em;
-  @mixin input-placeholder-color ($med-light);
+  font-size: 1.25em;
+  @include input-placeholder-color ($low-light);
 }
+
 .contact-form {
   @extend %contact-presentation;
   width: 80%;
