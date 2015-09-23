@@ -6,13 +6,11 @@
 
 .half-container-icon {
   background-color: transparent;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border-top: 8px solid transparent;
   border-bottom: 8px solid $white;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
 }
