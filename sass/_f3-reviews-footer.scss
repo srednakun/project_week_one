@@ -2,6 +2,11 @@
   @extend %section-layouts;
   background-color: $background-B;
   color: $highest-light;
+  & .slant {
+    @extend %svg; 
+    fill: $background-C;
+    background-color: transparent;
+  }
 }
 
 .footer-logo {
