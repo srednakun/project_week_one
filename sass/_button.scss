@@ -1,5 +1,9 @@
 //re-useable button styling
 
+%circle-button {
+	@extend %circle;
+}
+
 %oval-button{
     border-top: 5px solid $high-light;
     border-bottom: 5px solid $high-light;

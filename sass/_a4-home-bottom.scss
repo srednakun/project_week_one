@@ -2,4 +2,17 @@
 //this includes some amazing features and icons below that
 .home-bottom {
 	background-color: $low-light;
+	padding-top: 2em;
+}
+
+.home-feature-icon {
+	@extend %circle-button;
+	display: inline-block;
+}
+
+.icon-laptop {
+	font-size: 5em;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 5em; 
 }
