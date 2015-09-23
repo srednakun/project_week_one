@@ -1,9 +1,13 @@
 .f2-reviews-contact {
   @extend %section-layouts;
-
   font-family: "Raleway", sans-serif;
   background-color: $background-C;
   color: $high-light;
+  & .slant {
+    @extend %svg;
+    fill: $low-light;
+    background-color: transparent;
+  }
 }
 
 .container-icon {
@@ -17,24 +21,27 @@
   }
 }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  input {
+%contact-presentation {
     border: none;
     border-bottom: 2px solid $low-light; 
     background: none;
     color: $low-light;
-    width: 75%;
-    margin: auto;
-    display: block;
-    height: 3em;
-  textarea {
-    height: 9em;
-    }
-  }
 }
-
+.contact-form {
+  @extend %contact-presentation;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
 .contact-form-first-line {
-  @extend .contact-form;
+  @extend %contact-presentation;
+  flex-direction: row-resize;
+  height: 3em;
 }
+textarea {
+  @extend %contact-presentation;
+  height: 9em;
+  width: 75%;
+  }
+

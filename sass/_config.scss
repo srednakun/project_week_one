@@ -17,15 +17,18 @@ body {
   }
 }
 
-svg {
+%svg {
   position: absolute;
+  z-index: 100;
+  left: 0;
+  top: -1px;
 }
 
 %section-layouts {
   position: relative;
   padding-top: 6em;
   padding-bottom: 14em;
-  margin: 0 2% 0 2%;
+  margin: 0;
 }
 
 .underlined-heading {
