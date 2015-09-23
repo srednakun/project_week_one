@@ -12,10 +12,16 @@
 .home-feature {
 	margin-bottom: 6em;
 }
+
+.home-feature-h5 {
+  color: $primary-font-color;
+
+}
 .home-feature figcaption {
 	font-size: $tiny-font-size;
 	max-width: 20em;
 	margin: 0 auto;
+  color: $primary-font-color;
 }
 .home-feature-laptop {
 	margin-top: 6em;
