@@ -13,9 +13,7 @@
  h2, p {
   font-family: "Roboto";
   font-style: lighter;
-  font-size: 1em;
-  margin-left: 25%;
-  margin-right: 25%;
+  font-size: 2em;
   }
 }
 
@@ -45,6 +43,10 @@
   display: flex;
   justify-content: center;
   justify-direction: row;
+  img {
+    margin-top: 3.5%;
+    margin-right: 2%;
+  }
 }
 .individual-info {
   display: inline;
