@@ -20,7 +20,7 @@
 
 .c1-screenshots {
   @extend %section-layouts;
-  background-color: #383838;
+  @include bi-color-background ($background-A, $low-light);
 }
 
 .c1-image-shown {
