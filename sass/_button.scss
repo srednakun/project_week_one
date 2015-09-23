@@ -32,3 +32,21 @@
 	@extend %google-play-button;
 	background-color: $background-B;
 }
+
+.submit-button {
+  color: $highest-light;
+  background-color: transparent;
+  border-top: 3px solid $high-light;
+  border-bottom: 3px solid $high-light;
+  border-right: 1px solid $high-light;
+  border-left: 1px solid $high-light;
+  border-radius: 10%/50%;
+  width: 10em;
+  &:hover {
+    background-color: $background-B;
+    border-top: 3px solid $contrast-B;
+    border-bottom: 3px solid $contrast-B;
+    border-right: 1px solid $contrast-B;
+    border-left: 1px solid $contrast-B;
+  }
+}
