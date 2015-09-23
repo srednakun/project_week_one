@@ -4,7 +4,7 @@ $(document).ready(function () {
     fx:'scrollVert',
     pager: '.pager',
     timeout: 4000,
-    speed: 500,
+    speed: 1000,
     // pause: 1,
   });
 
