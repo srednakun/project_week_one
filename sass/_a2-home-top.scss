@@ -1,9 +1,10 @@
 //home top styling
 //this includes the The best way....title followed by the video and the 2 phone images
 .home-top {
-	padding-top: 2em;
+	@extend %section-layouts;
 	background-color: $background-A;
 }
+
 .home-h1 {
 	font-size: $large-font-size;
 	padding-top: 2em;
@@ -38,3 +39,4 @@
 	padding-bottom: 2em;
     margin: 0;
 }
+

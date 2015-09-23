@@ -1,10 +1,13 @@
 .e1-pricing-pricing{
-padding-top: 5%;
-background-color: $background-C;
-text-align: center;
-font-family: 'Roboto', sans-serif;
-color: $high-light;
-padding-bottom: 3.5%;
+	@extend %section-layouts;
+	background-color: $background-C;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: $high-light;
+	& .slant {
+	  fill: $background-C;
+	  background-color: transparent;
+	}
 }
 
 .e1-pricing-pricing div:nth-of-type(1){
@@ -88,9 +91,6 @@ font-family: 'Roboto', sans-serif;
 	.package-level {
 		border-bottom: 1px solid $high-light;
 	}
-	// td:nth-of-type(1) {
-	// 	padding-top: 2em;
-	// }
 	li {
 		padding-left: 5em;
 		padding-right: 5em;
@@ -102,7 +102,6 @@ font-family: 'Roboto', sans-serif;
 		}
 	}
 }
-
 
 .e1-pricing-pricing>article:hover {
 	.package-level { 

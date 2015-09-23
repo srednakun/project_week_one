@@ -1,2 +1,11 @@
 //home bottom styling
 //this includes some amazing features and icons below that
+.home-bottom {
+  @extend %section-layouts;
+  background-color: $low-light;
+  & .slant {
+    @extend %svg;
+    fill: $background-C;
+    background-color: transparent;
+  }
+}
