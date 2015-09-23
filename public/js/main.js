@@ -1,5 +1,13 @@
 $(document).ready(function () {
 
+  $(".carousel-inner-download").cycle({
+    fx:'scrollVert',
+    pager: '.pager',
+    timeout: 4000,
+    speed: 1000,
+    // pause: 1,
+  });
+
   $(".c1-right").on("click", function(e) {
     var activeImage = $(".c1-image-shown");
     var nextImage = activeImage.next();
