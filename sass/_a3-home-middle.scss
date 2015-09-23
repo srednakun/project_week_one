@@ -22,14 +22,9 @@
 }
 .google-play-button {
 	@extend %google-play-button;
-	//margin auto is overiding these so it doesn't work
-	margin-left: .5em;
-
 }
 .iOS-app-button {
 	@extend %iOS-app-button;
-	//margin auto is overiding these so it doesn't work
-	margin-right: .5em;
 
 }
 .home-google-ios {
@@ -45,7 +40,7 @@
 	top: 6em;
 }
 .icon-iOS {
-	position: relative;
+	
 	bottom: 5.5em;
 
  
