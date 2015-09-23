@@ -22,44 +22,33 @@
 }
 
 %contact-presentation {
+  color: $med-light;
   display: flex;
   border: none;
   border-bottom: 2px solid $low-light; 
   background: none;
   color: $low-light;
+  font-size: 2em;
 }
 .contact-form {
   @extend %contact-presentation;
-  width: 100%;
+  width: 80%;
   margin: auto;
   flex-direction: column;
-}
-.submit-button {
-  color: $highest-light;
-  background-color: transparent;
-  border-top: 3px solid $high-light;
-  border-bottom: 3px solid $high-light;
-  border-right: 1px solid $high-light;
-  border-left: 1px solid $high-light;
-  border-radius: 10%/50%;
-  width: 10em;
-  &:hover {
-    background-color: $background-B;
-    border-top: 3px solid $contrast-B;
-    border-bottom: 3px solid $contrast-B;
-    border-right: 1px solid $contrast-B;
-    border-left: 1px solid $contrast-B;
-  }
+  margin-bottom: 3em;
 }
 .contact-form-first-line {
-  @extend %contact-presentation;
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
   height: 3em;
+  margin-bottom: 3em;
   & input {
     @extend %contact-presentation;
     width: 100%;
   }
 }
+
 textarea {
   @extend %contact-presentation;
   height: 9em;
@@ -81,3 +70,20 @@ textarea {
    color: $low-light;
 }
 
+.submit-button {
+  color: $highest-light;
+  background-color: transparent;
+  border-top: 3px solid $high-light;
+  border-bottom: 3px solid $high-light;
+  border-right: 1px solid $high-light;
+  border-left: 1px solid $high-light;
+  border-radius: 10%/50%;
+  width: 10em;
+  &:hover {
+    background-color: $background-B;
+    border-top: 3px solid $contrast-B;
+    border-bottom: 3px solid $contrast-B;
+    border-right: 1px solid $contrast-B;
+    border-left: 1px solid $contrast-B;
+  }
+}
