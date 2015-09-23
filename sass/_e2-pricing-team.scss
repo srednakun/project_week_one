@@ -1,9 +1,13 @@
 .e2-pricing-team{
+  @extend %section-layouts;
   background-color: $background-B;
-  text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
-  padding-bottom: 3.5%;
+  color: $highest-light;
+  & .slant {
+    @extend %svg;
+    fill: $background-C;
+    background-color: transparent;
+  }
 }
 
 .e2-pricing-team h1{
