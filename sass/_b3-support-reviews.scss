@@ -1,0 +1,18 @@
+.b3-support-reviews{
+  background: $background-B;
+  color: $white;
+  padding-bottom: 5em;
+}
+
+.half-container-icon {
+  background-color: transparent;
+  height: 200px;
+  width: 200px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid $white;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
