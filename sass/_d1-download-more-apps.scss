@@ -119,3 +119,8 @@
 .icon-star{
   color: $bright-rating;
 }
+
+.d1-download-more-apps {
+  @extend %section-layouts;
+  background-color: $background-B;
+}

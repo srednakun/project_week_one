@@ -4,7 +4,6 @@
   padding-bottom: 5em;
   padding-top: 5em;
 }
-
 .review-container {
 }
 
@@ -24,3 +23,15 @@
   // margin-bottom:
   // position: absolute;
 }
+.b3-support-reviews {
+  @extend %section-layouts;
+  background-color: $background-B;
+  font-family: 'Roboto', sans-serif;
+  color: $highest-light;
+  & .slant {
+    @extend %svg;
+    fill: $background-A;
+    background-color: transparent;
+  }
+}
+

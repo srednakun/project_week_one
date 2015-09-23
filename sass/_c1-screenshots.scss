@@ -19,9 +19,9 @@
   }
 }
 .c1-screenshots {
-  background-color: #383838;
+  @extend %section-layouts;
+  @include bi-color-background ($background-A, $low-light);
 }
-
 .c1-image-shown {
   display: block;
 }
