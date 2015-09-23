@@ -5,3 +5,20 @@
   background-image: -webkit-linear-gradient(bottom, $topColor 50%, $bottomColor 50%);
   background-image: -ms-linear-gradient(bottom, $topColor 50%, $bottomColor 50%);
 }
+
+@mixin input-placeholder-color ($color) {
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color: $color;
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+     color: $color;
+     opacity:  1;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+     color: $color;
+     opacity:  1;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color: $color;
+  }
+}

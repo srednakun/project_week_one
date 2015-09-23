@@ -29,6 +29,7 @@
   background: none;
   color: $low-light;
   font-size: 2em;
+  @mixin input-placeholder-color ($med-light);
 }
 .contact-form {
   @extend %contact-presentation;
@@ -36,6 +37,9 @@
   margin: auto;
   flex-direction: column;
   margin-bottom: 3em;
+  &:focus {
+    color: $high-light;
+  }
 }
 .contact-form-first-line {
   display: flex;
@@ -52,23 +56,8 @@
 textarea {
   @extend %contact-presentation;
   height: 9em;
-  // width: 75%;
 }
 
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: $low-light;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color: $low-light;
-   opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color: $low-light;
-   opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: $low-light;
-}
 
 .submit-button {
   color: $highest-light;
