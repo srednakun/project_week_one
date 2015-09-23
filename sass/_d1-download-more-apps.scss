@@ -32,8 +32,8 @@
     background: $low-light;
     display:flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     p {
       display: inline;
@@ -45,14 +45,13 @@
 .carousel-inner-download {
     display:flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-content: flex-start;
     align-items: center;
 }
 .app-box{
-  padding-left: 2.5%;
-  padding-right: 2.5%;
+  padding: 1em 2.5% 1em 2.5%;
 }
 .app-info {
   margin-top: 0;
