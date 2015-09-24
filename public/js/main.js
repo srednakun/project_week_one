@@ -11,11 +11,19 @@ $(document).ready(function () {
   ];
 
   $.each(slides, function(index,value) {
+      if (value == "carousel-inner-download-2" || value == "carousel-inner-download-4") {
       $("." + value).cycle({
-      fx:'scrollDown',
-      timeout: 4000,
-      speed: 1000,
-    });
+        fx:'scrollUp',
+        timeout: 4000,
+        speed: 1000,
+      });
+      } else {
+      $("." + value).cycle({
+        fx:'scrollDown',
+        timeout: 4000,
+        speed: 1000,
+      });
+    }   
   });
 
   $.each(clickableImage, function(index, value) {
