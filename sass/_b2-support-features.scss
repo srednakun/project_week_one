@@ -22,24 +22,26 @@
     align-content: flex-start;
     align-items: flex-start;
   }
-  .review-info {
-  padding-top: 2.5%;
-  margin-top: 0;
-  width: 325px;
-  height: 175px;
-  background: #05c3f9;
-  margin-left: 35%;
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  img {
-    padding-right: 2.5%;
+  .home-feature {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    h5 {
+      font-size: 1.5em;
+    }
+    figcaption {
+      font-size: 1em;
+    }
   }
 }
+.single-align {
+    padding-bottom: 2%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-end;
+    text-align: right;
 }
 @media only screen and (min-device-width: 1200px)  {
-  .b2-iphone-pic {
-    display: inline;
-    margin-bottom: 2em;
-  }
 }
