@@ -38,6 +38,8 @@ $(document).ready(function () {
 
       if(nextImage.length == 0) {
         nextImage = $(".slider-inner img").first();
+        nextImage = $(".slider-inner-2 img").first();
+        nextImage = $(".slider-inner-3 img").first();
       };
 
     activeImage.removeClass("c1-image-shown").addClass("c1-image-hidden").css("z-index",-10);;
@@ -51,6 +53,9 @@ $(document).ready(function () {
 
     if(nextImage.length == 0) {
       nextImage = $('.slider-inner img').last();
+      nextImage = $('.slider-inner-2 img').last();
+      nextImage = $(".slider-inner-3 img").last();
+
     }
     activeImage.removeClass("c1-image-shown").addClass("c1-image-hidden").css("z-index", -10);
     nextImage.addClass("c1-image-shown").removeClass("c1-image-hidden").css("z-index", 20);
