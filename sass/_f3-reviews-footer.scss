@@ -15,7 +15,12 @@
   img {
     width: 25%;
     height: auto;
-  }
+    // @media only screen and (min-device-width: 768px) {
+
+    // } 
+    // @media only screen and (min-device-width: 1200px) {
+      
+    }
 }
 
 .icon-social-media {
@@ -35,3 +40,4 @@
   margin-top: 2em;
   margin-bottom: 4em;
 }
+
