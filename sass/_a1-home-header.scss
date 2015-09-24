@@ -3,26 +3,21 @@
 .home {
   color: $primary-font-color;
   margin: 0;
+
 }
 .home-h1 {
   margin-bottom: 1em;
 }
 
 .home-header {
-  padding-top: 5em;
+  padding-top: .5em;
   background-color: $background-A;
+  margin-bottom: 1em;
+
+
 }
 .home-nav {
 	display: inline;
-  margin-top: 2em;
-  margin-bottom: 1em;
-}
-.home-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  margin-bottom: 0;
 }
 .home-nav li {
 	padding-right: .5em;
@@ -34,8 +29,7 @@
 }
 .appbox-logo {
 	display: inline;
-  max-width: 100%;
-  margin-right: 50em;
+  
 }
 //mobile view
 @media (max-width:800px) {
@@ -47,15 +41,15 @@
   }
 }
 //altered code for desktop view
-@media (min-width:800px) {
+@media (min-width:1024px) {
   .home-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
+   display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-end;
     align-items: flex-start;
-  }
-
+}
   .home-nav {
     margin-top: .5em;
     font-size: $medium-font-size;
