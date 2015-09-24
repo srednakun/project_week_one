@@ -1,4 +1,4 @@
-.b2-support-features { 
+.b2-support-features {
   @extend %section-layouts;
   background-color: $background-A;
   & .slant {
@@ -8,5 +8,24 @@
   }
 }
 .b2-iphone-pic {
-	margin-bottom: 2em;
+  display: none;
+}
+@media only screen and (min-device-width: 768px)  {
+  .b2-iphone-pic {
+    display: inline
+  }
+  .b2-feature{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media only screen and (min-device-width: 1200px)  {
+  .b2-iphone-pic {
+    display: inline;
+    margin-bottom: 2em;
+  }
 }
