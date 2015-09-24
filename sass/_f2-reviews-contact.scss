@@ -35,6 +35,9 @@
   p {
     margin-bottom: 5em;
   }
+  .submit-button {
+    margin-left: 0;
+  }
 }
 
 .contact-info {
@@ -45,12 +48,10 @@
   li {
     margin-bottom: 2em;
     display: flex;
-    @media only screen and (min-device-width: 768px)  {
-      // flex-direction: row;
-    }
-    @media only screen and (min-device-width: 1200px)  {
-    flex-direction: row;
-    }
+    // flex-direction: column;
+  }
+  @media only screen and (min-device-width: 1200px)  {
+  flex-direction: row;
   }
 }
 
@@ -68,23 +69,23 @@
   flex-direction: column;
   border-bottom: none;
 }
-.submit-button {
-  color: $highest-light;
-  background-color: transparent;
-  border-top: 3px solid $high-light;
-  border-bottom: 3px solid $high-light;
-  border-right: 1px solid $high-light;
-  border-left: 1px solid $high-light;
-  border-radius: 10%/50%;
-  width: 10em;
-  &:hover {
-    background-color: $background-B;
-    border-top: 3px solid $contrast-B;
-    border-bottom: 3px solid $contrast-B;
-    border-right: 1px solid $contrast-B;
-    border-left: 1px solid $contrast-B;
-  }
-}
+// .submit-button {
+//   color: $highest-light;
+//   background-color: transparent;
+//   border-top: 3px solid $high-light;
+//   border-bottom: 3px solid $high-light;
+//   border-right: 1px solid $high-light;
+//   border-left: 1px solid $high-light;
+//   border-radius: 10%/50%;
+//   width: 10em;
+//   &:hover {
+//     background-color: $background-B;
+//     border-top: 3px solid $contrast-B;
+//     border-bottom: 3px solid $contrast-B;
+//     border-right: 1px solid $contrast-B;
+//     border-left: 1px solid $contrast-B;
+//   }
+// }
 .contact-form-first-line {
   @extend %contact-presentation;
   flex-direction: row;
