@@ -1,6 +1,6 @@
 //home top styling
 //this includes the The best way....title followed by the video and the 2 phone images
-.home-top {
+.a2-home-top {
 	@extend %section-layouts;
 	background-color: $background-A;
 	padding-top: 2em;
@@ -17,7 +17,6 @@
 .home-video {
 	margin-top: 1em;
 }
-
 .home-video-border {
 	padding-top: .6em;
 	padding-bottom: .6em;
