@@ -40,3 +40,9 @@ margin: 30px;
 margin-left: 22%;
 margin-top: -1.5%;
 }
+
+.e2-arrow:after{
+  content: url(./../img/vertical-arrow.png);
+  position: absolute;
+  top: 13.5em;
+}
