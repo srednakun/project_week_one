@@ -1,7 +1,14 @@
-// Built using the teachings from...
+// // Built using the teachings from...
 
-// https://www.youtube.com/watch?v=0iP8YwTo7To
-
+// // https://www.youtube.com/watch?v=0iP8YwTo7To
+.carousel-2 {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: center;
+}
 
 .d1-download-more-apps{
   background: $background-B;
@@ -119,8 +126,66 @@
 .icon-star{
   color: $bright-rating;
 }
+.carousel-outer-download-2,.carousel-outer-download-3, .carousel-outer-download-4, {
+  display: none;
+}
 
 .d1-download-more-apps {
   @extend %section-layouts;
   background-color: $background-B;
 }
+@media only screen and (min-device-width: 768px)  {
+  .carousel-outer-download-2 {
+    width: 240px;
+    height: 420px;
+    display: block;
+    position: relative;
+    margin: auto;
+    display: inline;
+  }
+  .carousel-inner-download-2{
+    width: 240px;
+    height: 420px;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    margin: auto;
+  }
+}
+@media only screen and (min-device-width: 1200px)  {
+
+  .carousel-outer-download-3 {
+    width: 240px;
+    height: 420px;
+    display: block;
+    position: relative;
+    margin: auto;
+    display: inline;
+  }
+  .carousel-inner-download-3{
+    width: 240px;
+    height: 420px;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    margin: auto;
+  }
+    .carousel-outer-download-4 {
+    width: 240px;
+    height: 420px;
+    display: block;
+    position: relative;
+    margin: auto;
+    display: inline;
+  }
+  .carousel-inner-download-4{
+    width: 240px;
+    height: 420px;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    margin: auto;
+  }
+}
+
+

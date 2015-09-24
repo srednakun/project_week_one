@@ -1,20 +1,36 @@
 $(document).ready(function () {
 
   $(".carousel-inner-download").cycle({
-    fx:'scrollVert',
-    pager: '.pager',
+    fx:'scrollDown',
+    // pager: '.pager',
     timeout: 4000,
     speed: 1000,
     // pause: 1,
   });
 
-  // $(".individual").cycle({
-  //   fx:'scrollVert',
-  //   pager: '.pager',
-  //   timeout: 4000,
-  //   speed: 1000,
-  //   // pause: 1,
-  // });
+  $(".carousel-inner-download-2").cycle({
+    fx:'scrollUp',
+    // pager: '.pager',
+    timeout: 4000,
+    speed: 1000,
+    // pause: 1,
+  });
+
+  $(".carousel-inner-download-3").cycle({
+    fx:'scrollDown',
+    // pager: '.pager',
+    timeout: 4000,
+    speed: 1000,
+    // pause: 1,
+  });
+
+  $(".carousel-inner-download-4").cycle({
+    fx:'scrollUp',
+    // pager: '.pager',
+    timeout: 4000,
+    speed: 1000,
+    // pause: 1,
+  });
 
   $(".c1-right").on("click", function(e) {
     var activeImage = $(".c1-image-shown");
