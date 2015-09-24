@@ -25,3 +25,15 @@
 	margin-top: 6em;
 }
 
+@media (min-width: 1024px) {
+  .home-feature-laptop {
+    margin-top: 1em;
+  }
+    .home-feature-list{
+      display: flex;
+      margin-left: 16%;
+      text-align: center;
+    }
+
+}
+
