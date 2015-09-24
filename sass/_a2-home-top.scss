@@ -3,22 +3,11 @@
 .home-top {
 	@extend %section-layouts;
 	background-color: $background-A;
-}
-
-.home-h1 {
-	font-size: $large-font-size;
-	padding-top: 1em;
-	margin-top: 0;
+	padding-top: 2em;
 }
 .home-p {
 	color: $primary-font-color;
 	line-height: .2em;
-}
- .home-p-first-sentance {
-	font-size: .5em;
-}
-.home-p-second-sentance {
-	font-size: $tiny-font-size;
 }
 .home-intro-vid {
 	color: $primary-font-color;
@@ -28,26 +17,14 @@
 .home-video {
 	margin-top: 1em;
 }
-.home-video-image {
-	@extend %square;
-	margin: 0 auto;
-	margin-top: 15em;
-	margin-bottom: 5em;
-	padding-top: 2em;
-	border-left-width: 2em;
-	border-right-width: 2em;
-	height: 50em;
-	width: 100em;
-	border-top-width: 2em;
-	border-bottom-width: 2em;
-	padding-bottom: 2em;
-	padding-left: 2em;
-	padding-right: 2em;
-	border-left-width: 2em;
-	border-color: $white;
+
+.home-video-border {
+	padding-top: .6em;
+	padding-bottom: .6em;
+	border: .1em solid $white;
 	background-color: $low-light;
-	z-index: 0;
-	position: relative;
+	width: 5em;
+	max-width: 50%;
 } 
 .home-phone-pic {
 	padding-bottom: 2em;
@@ -59,7 +36,26 @@
 	color: $background-B;
 	z-index: 10;
 	top: 7.5em;
-	position: absolute;
 	margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+
+	.home-p-first-sentance {
+		font-size: .5em;
+	}
+	.home-p-second-sentance {
+		font-size: $tiny-font-size;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.home-p-first-sentance {
+		font-size: $small-font-size;
+	}
+	.home-p-second-sentance {
+		font-size: 1.5em;
+	}
 }
 

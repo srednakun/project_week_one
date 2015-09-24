@@ -20,13 +20,6 @@
 .home-google-ios li{
 	display: inline-block;
 }
-.google-play-button {
-	@extend %google-play-button;
-}
-.iOS-app-button {
-	@extend %iOS-app-button;
-
-}
 .home-google-ios {
 	a {
 		color: $white;
@@ -34,14 +27,10 @@
 		font-size: $medium-font-size;
 	}
 }
-.icon-Googleplay {
-	position: relative;
-	right: 20em;
-	top: 6em;
+.google-play-button {
+	@extend %google-play-button;
 }
-.icon-iOS {
-	
-	bottom: 5.5em;
+.iOS-app-button {
+	@extend %iOS-app-button;
+}
 
- 
-}
