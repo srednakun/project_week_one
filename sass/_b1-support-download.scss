@@ -52,3 +52,30 @@
 .icon-iOS {
 	color: $primary-font-color;
 }
+
+@media (min-width: 1040px) {
+
+	.b1-part1 {
+		display:flex;
+	    flex-direction: column;
+	    flex-wrap: wrap;
+	    justify-content: flex-start;
+	    align-content: stretch;
+	    align-items: flex-start;
+	}
+	.b1-h1-live {
+		font-size: $medium-font-size;
+		margin-bottom: .75em;
+	}
+	.b1-h1-section {
+		text-align: left;
+		width: 38em;
+		margin-top: .75em;
+
+	}
+	.b1-p-live {
+		text-align: left;
+		line-height: 1.7em;
+
+	}	
+}
