@@ -17,6 +17,21 @@
   margin: auto;
 }
 
+.container-icon-title {
+  font-size: 0.75em;
+}
+
+.contact-article {
+  display: flex;
+  @media only screen and (min-device-width: 768px)  {
+    flex-direction: row;
+  }
+  @media only screen and (min-device-width: 1200px)  {
+    flex-direction: row;
+    padding-left: 5%;
+  }
+}
+
 .contact-info {
   margin-bottom: 6em;
   li {
@@ -66,7 +81,6 @@
 textarea {
   @extend %contact-presentation;
   height: 9em;
-  // width: 75%;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
