@@ -4,6 +4,9 @@
   padding-bottom: 5em;
   padding-top: 5em;
 }
+.reviews-container{
+  margin: auto;
+}
 .b3-support-reviews {
  h1 {
   font-family: "Raleway";
@@ -16,7 +19,6 @@
   font-size: 2em;
   }
 }
-
 .icon-title{
   display: flex;
   -webkit-display: flex;
@@ -32,6 +34,7 @@
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-radius: 50%;
+  margin: auto;
   display: flex;
   span {
     align-items: center;
