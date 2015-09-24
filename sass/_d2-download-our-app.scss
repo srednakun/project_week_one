@@ -1,6 +1,6 @@
 .d2-download-our-app {
   @extend %section-layouts;
-  @include bi-color-background ($low-light, $background-C);
+  @include bi-color-background ($background-C, $low-light);
   background-color: $background-C;
   font-family: 'Roboto', sans-serif;
   color: $highest-light;
@@ -48,7 +48,6 @@
 	margin-left: 25%;
 	margin-right: 0%;
 	margin-top: 0%;
-	margin-bottom: 5%;
 }
 
 .d2-content>p{
