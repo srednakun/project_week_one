@@ -31,11 +31,26 @@
     padding-left: 5%;
   }
 }
+.form-section {
+  p {
+    margin-bottom: 5em;
+  }
+}
 
 .contact-info {
   margin-bottom: 6em;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 25%;
   li {
     margin-bottom: 2em;
+    display: flex;
+    @media only screen and (min-device-width: 768px)  {
+      // flex-direction: row;
+    }
+    @media only screen and (min-device-width: 1200px)  {
+    flex-direction: row;
+    }
   }
 }
 
@@ -51,6 +66,7 @@
   width: 100%;
   margin: auto;
   flex-direction: column;
+  border-bottom: none;
 }
 .submit-button {
   color: $highest-light;
@@ -72,15 +88,20 @@
 .contact-form-first-line {
   @extend %contact-presentation;
   flex-direction: row;
-  height: 3em;
+  height: 6em;
+  border-bottom: none;
   & input {
     @extend %contact-presentation;
     width: 100%;
+    margin-bottom: 3em;
+    margin-right: 5%;
   }
 }
+
 textarea {
   @extend %contact-presentation;
   height: 9em;
+  margin-bottom: 3em;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
