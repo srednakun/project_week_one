@@ -16,6 +16,9 @@
 .container-icon {
   margin: auto;
 }
+.container-icon-caption {
+  max-width: 33%;
+}
 
 .container-icon-title {
   font-size: 0.75em;
@@ -28,30 +31,34 @@
   }
   @media only screen and (min-device-width: 1200px)  {
     flex-direction: row;
-    padding-left: 5%;
+    justify-content: space-around;
   }
 }
 .form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
   p {
     margin-bottom: 5em;
   }
   .submit-button {
-    margin-left: 0;
+    margin-left: 0;    
   }
 }
 
 .contact-info {
   margin-bottom: 6em;
-  margin-left: 2%;
+  // margin-left: 2%;
   margin-right: 2%;
   width: 25%;
   li {
     margin-bottom: 2em;
     display: flex;
-    // flex-direction: column;
-  }
-  @media only screen and (min-device-width: 1200px)  {
-  flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    @media only screen and (min-device-width: 1200px)  {
+      flex-direction: row;
+    }
   }
 }
 
@@ -69,23 +76,7 @@
   flex-direction: column;
   border-bottom: none;
 }
-// .submit-button {
-//   color: $highest-light;
-//   background-color: transparent;
-//   border-top: 3px solid $high-light;
-//   border-bottom: 3px solid $high-light;
-//   border-right: 1px solid $high-light;
-//   border-left: 1px solid $high-light;
-//   border-radius: 10%/50%;
-//   width: 10em;
-//   &:hover {
-//     background-color: $background-B;
-//     border-top: 3px solid $contrast-B;
-//     border-bottom: 3px solid $contrast-B;
-//     border-right: 1px solid $contrast-B;
-//     border-left: 1px solid $contrast-B;
-//   }
-// }
+
 .contact-form-first-line {
   @extend %contact-presentation;
   flex-direction: row;
