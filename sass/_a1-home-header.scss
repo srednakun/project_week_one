@@ -6,25 +6,15 @@
 }
 .home-h1 {
   margin-bottom: 1em;
-  padding-top: 0;
-  margin-top: 1em; 
 }
-.home-header {
-  padding-top: 5em;
+.a1-home-header {
   background-color: $background-A;
+  padding-bottom: .5em;
 }
 .home-nav {
 	display: inline;
-  font-size: 3em;
-  margin-bottom: 2em;
-  margin-top: 2em;
-}
-.home-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  margin-bottom: 0;
+  margin-bottom: 1em;
+  margin-top: 0;
 }
 .home-nav li {
 	padding-right: .5em;
@@ -35,8 +25,41 @@
 	text-decoration: none;
 }
 .appbox-logo {
-	display: inline;
-  max-width: 100%;
-  margin-right: 50em;
+  
 }
+//mobile view
+@media (max-width:800px) {
+  .home-h1 {
+    font-size: $small-font-size;
+  }
+  .home-nav {
+    font-size: 3em;
+  }
+}
+//altered code for desktop view
+@media (min-width:1024px) {
 
+
+  .a1-home-header {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-top: 2em;
+}
+  .home-nav {
+    font-size: $small-font-size;
+    display: inline-block;
+  }
+  .home-nav ul {
+  }
+  .home-nav ul li {
+    width: auto;
+    display: inline-block;
+  }
+  .home-h1 {
+    font-size: $medium-font-size;
+  }
+}
