@@ -24,6 +24,12 @@ $(document).ready(function () {
     speed: 1000,
   });
 
+    $(".carousel-inner-reviews").cycle({
+    fx:'scrollDown',
+    timeout: 3000,
+    speed: 1000,
+  });
+
   $(".c1-right").on("click", function(e) {
     var activeImage = $(".c1-image-shown");
     var nextImage = activeImage.next();
