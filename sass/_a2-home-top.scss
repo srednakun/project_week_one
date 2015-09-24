@@ -48,7 +48,7 @@
 	}
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1040px) {
 
 	.home-p-first-sentance {
 		font-size: $small-font-size;
@@ -56,5 +56,9 @@
 	.home-p-second-sentance {
 		font-size: 1.5em;
 	}
+	.home-h1-section, .home-video {
+		text-align: left;
+	}
+
 }
 
