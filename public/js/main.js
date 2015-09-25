@@ -1,4 +1,19 @@
 $(document).ready(function () {
+
+  //navigation bar-smooth scrolling by Paul Underwood
+  $('a[href^="#"]').on('click',function (e) {
+      e.preventDefault();
+
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+      }, 1000, 'swing', function () {
+          window.location.hash = target;
+      });
+  });
+
   var slides = ["carousel-inner-download", "carousel-inner-download-2", "carousel-inner-download-3", "carousel-inner-download-4", "carousel-inner-reviews"];
 
   var clickableImage = [
