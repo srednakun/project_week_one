@@ -9,6 +9,17 @@
     fill: $background-B;
     background-color: transparent;
   }
+  .home-google-ios{
+    @media (min-width: 1024px) {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    }
+    margin-top: 4em;
+    li:nth-of-type(1){
+      margin-bottom: 7em;
+    }
+  }
+  padding-bottom: 3em;
 }
 
 .subscribe-form {
@@ -44,9 +55,13 @@
 }
 
 .d2-img{
-	margin-left: 25%;
+	margin-left: 0%;
 	margin-right: 0%;
-	margin-top: 0%;
+	margin-top: 1em;
+}
+
+.d2-content{
+  margin-left: 0.5em;
 }
 
 .d2-content>p{
@@ -55,7 +70,24 @@ margin-top: -10%;
 padding-top: 0%;
 margin-bottom: 0%;
 padding-bottom: 0%;
+font-size: 1.5em;
 }
 
-.underlined-heading-text:after{ 
+.d2-content>h3{
+  @media (min-width: 1024px) {
+  margin-top: 12em;
+  }
+  margin-top: 9.5em;
+  font-size: 1.5em;
 }
+
+.top-level-ul{
+  display: flex;
+    @media (min-width: 1024px) {
+    margin-left: 25%;
+  }
+  li{
+    margin-left: 2em;
+  }
+}
+
