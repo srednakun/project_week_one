@@ -14,10 +14,7 @@
 	text-decoration: none;
 	font-size: $small-font-size;
 }
-
-
 @media (max-width: 1040px) {
-
 	.a2-home-top {
 		padding-top: 2em;
 	}
@@ -51,7 +48,6 @@
 	    margin-top: 2em;
 	} 
 }
-
 @media (min-width: 1040px) {
 
 	.home-p-first-sentance {
@@ -68,11 +64,9 @@
 	}
 	.home-p-first-sentance {
 		font-size: $tiny-font-size;
-		
 	}
 	.home-p-second-sentance {
-		font-size: $small-font-size;
-		
+		font-size: $small-font-size;	
 	}
 	.home-video {
 		margin-top: 4em;
@@ -87,7 +81,6 @@
 		max-width: 12%;
 		background-color: $med-light;
 		float: left;
-
 	}
 	.icon-play {
 		
@@ -122,6 +115,5 @@
 	    align-content: flex-start;
 	    align-items: center;
 	}
-
 }
 

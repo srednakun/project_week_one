@@ -2,7 +2,6 @@
   @extend %section-layouts;
   background-color: $background-B;
 }
-
 .b1-part1 {
 	color: $primary-font-color;
 }
@@ -19,15 +18,12 @@
 	font-size: $med-lg-font-size;
 	margin-top: 2em;
 }
-
 .icon-android {
 	color: $primary-font-color;
 }
 .icon-iOS {
 	color: $primary-font-color;
 }
-
-
 @media (max-width: 1040px) {
 	.b1-part1-button {
 		background-color: $white;
@@ -50,21 +46,19 @@
 		width: 5em;
 	}
 	.b1-part2 {
-	margin-bottom: 2em;
+		margin-bottom: 2em;
+	}
+	.b1-android-iOS {
+		margin-bottom: 5em;
+		display: flex;
+		flex-direction: row;
+	}
 }
-.b1-android-iOS {
-	margin-bottom: 5em;
-	display: flex;
-	flex-direction: row;
-}
-}
-
 @media (min-width: 1040px) {
 	.b1-h1-live {
 		font-size: $medium-font-size;
 		margin-bottom: .75em;
 	}
-	
 	.b1-p-live {
 		text-align: left;
 		line-height: 1.7em;
@@ -94,9 +88,9 @@
 	.b1-arrow {
 		width: 4em;
 		margin-top: 6em;
-		 -ms-transform: rotate(-9deg); /* IE 9 */
-    -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
-    transform: rotate(-9deg);
+		-ms-transform: rotate(-9deg); /* IE 9 */
+    	-webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
+    	transform: rotate(-9deg);
 	}
 	.icon-android {
 		font-size: 2em;
@@ -124,12 +118,10 @@
 	.blank-cell-pic {
 		max-width: 100%;
     	height: auto;
-
 	}
 	.blank-cell-figure {
 		width: 26em;
 		height: 26em;
-
 	}
 	.b1-part2 {
 		display:flex;
@@ -151,7 +143,6 @@
 		display:flex;
 	    flex-direction: row;
 	    margin-top: 2em;
-	    margin: 0;
-	    
+	    margin: 0;   
 	}
 }

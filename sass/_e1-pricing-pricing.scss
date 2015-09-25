@@ -7,14 +7,11 @@
 	& .slant {
 	  fill: $background-C;
 	  background-color: transparent;
-	}
-	
+	}	
 }
-
 .e1-pricing-pricing div:nth-of-type(1){
 margin-bottom: 2.7%;
 }
-
 .e1-pricing-pricing>p{
 font-size: 1.1em;
 font-family: 'Roboto', sans-serif;
@@ -32,7 +29,6 @@ font-family: 'Roboto', sans-serif;
 	padding-left: 2em;
 	padding-right: 2em;
 }
-
 .package-card {
 	position: relative;
 	display: flex;
@@ -41,7 +37,6 @@ font-family: 'Roboto', sans-serif;
 		margin-top: 5em;
 	}
 }
-
 .package-level{
 	z-index:25;
 	padding-bottom: 3em !important;
@@ -54,13 +49,11 @@ font-family: 'Roboto', sans-serif;
 		line-height: 3;
 	}
 }
-
 .center-lock {
 	position: relative;
 	margin: auto;
 	height: .5em;
 }
-
 .price-tag{
 	position: relative;
 	z-index: 100;
@@ -81,7 +74,6 @@ font-family: 'Roboto', sans-serif;
 		color: $background-B;
 	}
 }
-
 .e1-pricing-pricing > article {
 	text-align: center;
 	display: inline-flex;
@@ -103,7 +95,6 @@ font-family: 'Roboto', sans-serif;
 		}
 	}
 }
-
 .e1-pricing-pricing>article:hover {
 	.package-level { 
 	background-color: $background-B;

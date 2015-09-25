@@ -1,5 +1,4 @@
 // // Built using the teachings from...
-
 // // https://www.youtube.com/watch?v=0iP8YwTo7To
 .carousel-2 {
   display:flex;
@@ -9,7 +8,6 @@
   align-content: flex-start;
   align-items: center;
 }
-
 .d1-download-more-apps{
   background: $background-B;
   padding-bottom: 5em;
@@ -103,7 +101,6 @@
   align-content: flex-start;
   align-items: center;
 }
-
 .app-info {
   margin-top: 0;
   width: 240px;
@@ -129,7 +126,6 @@
 .carousel-outer-download-2,.carousel-outer-download-3, .carousel-outer-download-4, {
   display: none;
 }
-
 .d1-download-more-apps {
   @extend %section-layouts;
   background-color: $background-B;
@@ -152,8 +148,7 @@
     margin: auto;
   }
 }
-@media only screen and (min-device-width: 1200px)  {
-
+@media only screen and (min-device-width: 1040px)  {
   .carousel-outer-download-3 {
     width: 240px;
     height: 420px;

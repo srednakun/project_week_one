@@ -24,7 +24,7 @@
 	text-decoration: none;
 }
 //mobile view
-@media (max-width:1024px) {
+@media (max-width:1040px) {
   .home-h1 {
     font-size: $small-font-size;
   }
@@ -34,12 +34,9 @@
   .home-nav li {
     padding-right: .5em;
   }
-
 }
 //altered code for desktop view
-@media (min-width:1024px) {
-
-
+@media (min-width:1040px) {
   .a1-home-header {
     display:flex;
     flex-direction: row;

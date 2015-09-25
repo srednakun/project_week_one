@@ -1,5 +1,4 @@
 //variables are defined here
-
 //font size placeholders
 %tiny-font {
 	font-size: $tiny-font-size;
@@ -13,4 +12,23 @@
 %large-font {
 	font-size: $large-font-size;
 }
+//color variables
+$white: #FFFFFF;
+$primary-font-color: $white;
+$background-A: #162327;
+$background-B: #05c3f9;
+$contrast-B: #037fa2;
+$background-C: #252525;
+$highest-light: #fff;
+$high-light: #bebebe;
+$med-light: #888888;
+$low-light: #383838;
+$bright-rating: #ffbf00;
+//fonts size variables
+$large-font-size: 4em;
+$med-lg-font-size: 3em;
+$medium-font-size: 2em;
+$small-font-size: 1em;
+$tiny-font-size: .75em;
+
 
