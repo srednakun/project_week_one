@@ -31,7 +31,6 @@
     flex-direction: row;
   }
   @media only screen and (min-device-width: 1200px)  {
-    flex-direction: row;
     justify-content: space-around;
   }
 }
@@ -111,14 +110,4 @@ textarea {
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color: $low-light;
-}
-
-.submit-button {
-    @media only screen and (min-device-width: 768px)  {
-      padding: 0;
-    }
-    @media only screen and (min-device-width: 1200px)  {
-      padding: 0;
-      color: green;
-  }
 }
