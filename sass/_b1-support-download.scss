@@ -19,14 +19,7 @@
 	font-size: $med-lg-font-size;
 	margin-top: 2em;
 }
-.b1-part2 {
-	margin-bottom: 2em;
-}
-.b1-android-iOS {
-	margin-bottom: 5em;
-	display: flex;
-	flex-direction: row;
-}
+
 .icon-android {
 	color: $primary-font-color;
 }
@@ -56,30 +49,26 @@
 	.b1-arrow {
 		width: 5em;
 	}
+	.b1-part2 {
+	margin-bottom: 2em;
+}
+.b1-android-iOS {
+	margin-bottom: 5em;
+	display: flex;
+	flex-direction: row;
+}
 }
 
 @media (min-width: 1040px) {
-
-	.b1-part1 {
-		display:flex;
-	    flex-direction: column;
-	    flex-wrap: wrap;
-	    justify-content: flex-start;
-	    align-content: stretch;
-	    align-items: flex-start;
-	}
 	.b1-h1-live {
 		font-size: $medium-font-size;
 		margin-bottom: .75em;
 	}
-	.b1-h1-section {
-		text-align: left;
-		width: 38em;
-		margin-top: .75em;
-	}
+	
 	.b1-p-live {
 		text-align: left;
 		line-height: 1.7em;
+		width:38em;
 	}
 	.b1-part1-button {
 		background-color: $white;
@@ -100,32 +89,68 @@
 	}
 	.b1-h1-free	{
 		font-size: 1.6em;
+		margin: 0;
 	}
 	.b1-arrow {
 		width: 4em;
-	}
-	.b1-download-icons {
-		max-width: 10em;
-		/*display:flex;
-	    flex-direction: row;
-	    flex-wrap: wrap;
-	    align-content: flex-start;
-	    align-items: center;*/
+		margin-top: 6em;
+		 -ms-transform: rotate(-9deg); /* IE 9 */
+    -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
+    transform: rotate(-9deg);
 	}
 	.icon-android {
-		font-size: 2.5em;
+		font-size: 2em;
 		margin: 0;
-
-
 	}
 	.icon-iOS {
-		font-size: 2.5em;
+		font-size: 2em;
 		margin: 0;
 	}
 	.b1-android-txt {
-		font-size: .4em;
+		font-size: .3em;
 	}
 	.b1-iOS-txt {
-		font-size: .4em;
+		font-size: .3em;
+	}
+	.b1-support-download {
+		display:flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: space-around;
+	    align-content: flex-start;
+	    align-items: flex-start;
+	}
+	.blank-cell-pic {
+		max-width: 100%;
+    	height: auto;
+
+	}
+	.blank-cell-figure {
+		width: 26em;
+		height: 26em;
+	
+	}
+	.b1-part2 {
+		display:flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    align-content: flex-start;
+	    align-items: center;
+	    text-align: left;
+	    max-width: 35em;
+	    margin-top: 4em;
+	}
+	.b1-part1 {
+		text-align: left;
+		margin: 0;
+	}
+	.home-icons-section {
+		width: 200px;
+		height:80px;
+		display:flex;
+	    flex-direction: row;
+	    margin-top: 2em;
+	    margin: 0;
+	    
 	}
 }
