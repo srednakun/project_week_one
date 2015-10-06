@@ -18,14 +18,16 @@
 %google-play-button {
 	@extend %oval-button;
 	border-top-width: .2em;
-    padding-top: 1.5em;
+    padding-top: 1em;
     border-bottom-width: .2em;
-    padding-bottom: 1.5em;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 1em;
 }
 %iOS-app-button {
 	@extend %google-play-button;
+  margin-left: 1em;
     //add this functionality through jquery when in hover state,
     //changes background color on google button and ios button to bright blue
 	//background-color: $background-B;
